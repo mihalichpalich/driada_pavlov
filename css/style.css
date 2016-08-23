@@ -1453,3 +1453,65 @@ hr {
   margin-top: 8px;
   padding: 0;
 }
+
+/* CONSULT */
+
+.consult {
+  background-color: #e5e5e5;
+  padding-bottom: 31px;
+}
+
+.main-title-consult {
+  margin: 27px 0 23px;
+  padding: 0 34px;
+  text-align: center;
+}
+
+.consult-form-text {
+  display: block;
+  margin-bottom: 12px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.consult-form-email-input, .consult-form-btn {
+  display: block;
+  min-height: 33px;
+  margin: 0 auto;
+  font-size: 10px;
+  line-height: 17px;
+  border-radius: 3px;
+  border: none;
+}
+
+.consult-form-email-input {
+  min-width: 212px;
+  margin-bottom: 11px;
+  padding-left: 31px;
+  color: #b4bbc2;
+  background: url(../img/consult-form-email-input-background.png) no-repeat;
+  background-color: white;
+  background-position: 10px 50%;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+.consult-form-btn {
+  min-width: 116px;
+  color: white;
+  background-color: #65abd0;
+}

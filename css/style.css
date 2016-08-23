@@ -1515,3 +1515,27 @@ hr {
   color: white;
   background-color: #65abd0;
 }
+
+/* CONTACTS */
+
+.main-title-contacts {
+  margin: 29px 0 11px;
+  text-align: center;
+}
+
+.contacts-text {
+  padding: 0 4px;
+  text-align: center;
+  color: #878787;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.contacts-text:first-child {
+  padding: 0 20px;
+  margin-bottom: 25px;
+}
+
+.contacts-map {
+  margin-top: 16px;
+}

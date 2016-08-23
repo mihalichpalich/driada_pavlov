@@ -200,7 +200,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333333;
+  color: black;
   background-color: #ffffff;
 }
 input,
@@ -1343,3 +1343,49 @@ hr {
   background-image: url(../img/service-item-garden-care-background.png);
 }
 
+/* ABOUT */
+
+.about {
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  font-weight: 300;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/about-background.jpg);
+}
+
+.about .container-fluid {
+  padding: 0;
+}
+
+.about-description {
+  margin-top: 7px;
+  text-transform: uppercase;
+  color: #0199ec;
+  font-size: 20px;
+}
+
+.about-title {
+  margin: 0 56px 21px;
+  line-height: 18px;
+}
+
+.about-service {
+  margin: 12px -2px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.advantages {
+  margin-top: 27px;
+}
+
+.advantages-item-title {
+  margin: 0;
+  padding: 22px 0;
+  background-color: #eaeaeb;
+  font-size: 12px;
+  text-transform: uppercase;
+}

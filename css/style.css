@@ -230,6 +230,8 @@ figure {
 }
 img {
   vertical-align: middle;
+  max-width: 100%;
+  height: auto;
 }
 .img-responsive {
   display: block;
@@ -284,6 +286,7 @@ hr {
   cursor: pointer;
 }
 .container {
+  width: 375px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -1210,3 +1213,133 @@ hr {
     display: none !important;
   }
 }
+
+* {
+  padding: 0;
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+/* PAGE-HEADER */
+
+.page-header {
+  position: relative;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page-header-main-wrapper {
+  padding: 12px 0 11px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.page-header-logo, .page-header-contacts-phone {
+  display: inline-block;
+}
+
+.page-header-logo {
+  margin-left: 36px;
+}
+
+.page-header-contacts {
+  padding: 0 20px 0 9px;
+}
+
+.page-header-contacts-phone {
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+
+.page-header-title {
+  position: absolute;
+  top: 345px;
+  left: 20px;
+  color: white;
+  font-size: 79px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* PAGE-HEADER-MAIN */
+
+.page-header-main {
+  background-image: url(../img/page-header-main-background.jpg);
+}
+
+.service {
+  padding: 170px 0 64px;
+}
+
+.service-item {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 151px;
+  position: relative;
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 30px;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.service-item-row {
+  margin-bottom: 6px;
+}
+
+.service-item-design {
+  margin-left: 60px;
+}
+
+.service-item-improvement, .service-item-garden-care {
+  padding-left: 0px;
+}
+
+.service-item-gardening {
+  margin-left: 74px;
+}
+
+.service-item-gardening, .service-item-garden-care {
+  margin-top: 100px;
+}
+
+.service-item-garden-care {
+  margin-left: -4px;
+}
+
+.service-item:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 82px;
+  position: absolute;
+  top: -83px;
+  background-repeat: no-repeat;
+}
+
+.service-item-design:before, .service-item-improvement:before, .service-item-gardening:before, .service-item-garden-care:before {
+  width: 94px;
+  height: 82px;
+}
+
+.service-item-design:before {
+  background-image: url(../img/service-item-design-background.png);
+  left: 18%;
+}
+
+.service-item-improvement:before {
+  background-image: url(../img/service-item-improvement-background.png);
+  left: 8%;
+}
+
+.service-item-gardening:before {
+  background-image: url(../img/service-item-gardening-background.png);
+  left: 7%;
+}
+
+.service-item-garden-care:before {
+  background-image: url(../img/service-item-garden-care-background.png);
+}
+

@@ -66,7 +66,7 @@ small {
 }
 sub,
 sup {
-  font-size: 75%;
+  font-size: 9px;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -1251,7 +1251,6 @@ hr {
   line-height: 14px;
 }
 
-
 .page-header-title {
   position: absolute;
   top: 345px;
@@ -1388,4 +1387,69 @@ hr {
   background-color: #eaeaeb;
   font-size: 12px;
   text-transform: uppercase;
+}
+
+/* PROJECTS */
+
+.projects {
+  padding-top: 7px;
+}
+
+.main-title {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.main-title-pond {
+  margin: 35px 0;
+  text-align: center;
+}
+
+.projects-text {
+  color: #888;
+  font-size: 12px;
+}
+
+.projects-image-pond {
+  margin: 20px 0 33px;
+}
+
+.projects-button {
+  display: inline-block;
+  color: white;
+  background-color: #65abd0;
+}
+
+.projects-button-pond {
+  padding: 12px 17px 10px;
+  margin-bottom: 35px;
+  font-size: 11px;
+  line-height: 17px;
+  -webkit-transform: translateX(125%);
+  -ms-transform: translateX(125%);
+  transform: translateX(125%);
+}
+
+.projects-description-sollutions {
+  padding-left: 28px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/projects-description-solution-background.jpg);
+}
+
+.main-title-sollutions {
+  margin: 30px 0 27px;
+}
+
+.projects-button-sollutions {
+  margin: 21px 0 15px;
+  padding: 12px 15px 10px 14px;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.projects-image-sollutions {
+  margin-top: 8px;
+  padding: 0;
 }

@@ -1349,10 +1349,7 @@ hr {
   z-index: 2;
   position: relative;
   font-weight: 300;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../img/about-background.jpg);
+
 }
 
 .about .container-fluid {
@@ -1360,6 +1357,13 @@ hr {
 }
 
 .about-description {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/bg-wooden.jpg);
+}
+
+.about-slogan {
   margin-top: 7px;
   text-transform: uppercase;
   color: #0199ec;
@@ -1373,6 +1377,7 @@ hr {
 
 .about-service {
   margin: 12px -2px;
+  font-weight: 300;
   font-size: 12px;
   line-height: 14px;
 }
@@ -1435,7 +1440,7 @@ hr {
   -webkit-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../img/projects-description-solution-background.jpg);
+  background-image: url(../img/bg-wooden.jpg);
 }
 
 .main-title-sollutions {
@@ -1538,4 +1543,47 @@ hr {
 
 .contacts-map {
   margin-top: 16px;
+}
+
+/* PAGE-FOOTER */
+
+.page-footer {
+  padding: 19px 0 26px;
+}
+
+.page-footer-social-network-btns {
+  text-align: center;
+}
+
+.page-footer-social-network-item {
+  display: inline-block;
+}
+
+.page-footer-social-network-link {
+  display: inline-block;
+  margin-left: 28px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url(../img/page-footer-icon-sprite.png);
+  background-repeat: no-repeat;
+}
+
+.page-footer-social-network-link-fb {
+  margin-left: 0;
+  width: 6px;
+  height: 14px;
+  background-position: -29px -5px;
+}
+
+.page-footer-social-network-link-twitter {
+  width: 14px;
+  height: 11px;
+  background-position: -5px -5px;
+}
+
+.page-footer-social-network-link-vk {
+  width: 17px;
+  height: 10px;
+  background-position: -5px -29px;
 }

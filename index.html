@@ -12,60 +12,66 @@
   <!-- /* PAGE-HEADER-MAIN */ -->
 
   <header class="page-header  page-header-main">
-    <div class="page-header-main-wrapper">
-      <div class="container">
+    <div class="container-fluid  container-fluid-page-header">
+      <div class="page-header-main-wrapper">
 
-        <div class="row">
+          <div class="row">
 
-          <div class="col-xs-4 col-xs-push-4">
-            <a target="_blank" href="index.html" class="page-header-logo"><img src="img/logo.png" alt="Логотип"></a>
-          </div>
-
-          <div class="hidden-xs  hidden-sm">
-            <nav class="nav-menu">
-              <ul class="nav-list">
-                <li><a target="_blank" href="#about">О нас</a></li>
-                <li class="active"><a target="_blank" href="#projects">Проекты</a></li>
-                <li><a target="_blank" href="design.html">Дизайн</a></li>
-                <li><a target="_blank" href="portfolio.html">Портфолио</a></li>
-                <li><a target="_blank" href="#contacts">Контакты</a></li>
-              </ul>
-            </nav>
-          </div>
-
-          <div class="col-xs-4  col-xs-4  col-xs-pull-4">
-            <div class="page-header-contacts">
-              <a href="#consult" class="hidden-xs  hidden-sm" target="_blank">Закажите бесплатный звонок!</a>
-              <a href="tel:+78127481404" target="_blank" class="page-header-contacts-phone">8 (812) 748-14-04</a>
+            <div class="col-xs-2  col-xs-push-6  col-lg-2">
+              <a target="_blank" href="index.html" class="page-header-logo"><img src="img/logo.png" alt="Логотип" class="page-header-logo-image" width="26" height="26"></a>
             </div>
-          </div>
+
+            <div class="hidden-xs  hidden-sm  hidden-md  col-lg-3  col-lg-push-6">
+              <nav class="page-header-nav-menu">
+                <ul class="page-header-nav-list">
+                  <li class="page-header-nav-item"><a target="_blank" href="#about" class="page-header-nav-link">О нас</a></li>
+                  <li class="page-header-nav-item"><a target="_blank" href="#projects" class="page-header-nav-link">Проекты</a></li>
+                  <li class="page-header-nav-item"><a target="_blank" href="design.html" class="page-header-nav-link">Дизайн</a></li>
+                  <li class="page-header-nav-item"><a target="_blank" href="portfolio.html" class="page-header-nav-link">Портфолио</a></li>
+                  <li class="page-header-nav-item"><a target="_blank" href="#contacts" class="page-header-nav-link">Контакты</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="col-xs-4  col-xs-pull-2  col-lg-3  col-lg-pull-4">
+              <div class="page-header-contacts">
+                <a href="#consult" class="hidden-xs  hidden-sm  hidden-md  page-header-contacts-order" target="_blank">Закажите бесплатный звонок!</a>
+                <a href="tel:+78127481404" target="_blank" class="page-header-contacts-phone">8 (812) 748-14-04</a>
+              </div>
+            </div>
 
         </div>
 
+    </div>
+  </div>
+
+    <div class="container">
+      <div class="service">
+
+        <ul class="row  service-item-row">
+
+          <li class="col-xs-6  col-lg-2  service-item  service-item-design">Проектирование</li>
+          <li class="col-xs-6  col-lg-2  col-lg-push-2  service-item  service-item-improvement">Благоустройство</li>
+          <li class="col-xs-6  col-lg-2  col-lg-push-2  service-item  service-item-gardening">Озеленение</li>
+          <li class="col-xs-6  col-lg-2  col-lg-push-2  service-item  service-item-garden-care">Уход за садом</li>
+
+        </ul>
       </div>
+
+      <div class="row">
+        <div class="col-xs-6  col-lg-12">
+          <h1 class="page-header-title">Driada</h1>
+        </div>
+      </div>
+
     </div>
-
-    <div class="service">
-
-      <ul class="row  service-item-row">
-
-        <li class="col-xs-6  service-item  service-item-design">Проектирование</li>
-        <li class="col-xs-6  service-item  service-item-improvement">Благоустройство</li>
-        <li class="col-xs-6  service-item  service-item-gardening">Озеленение</li>
-        <li class="col-xs-6  service-item  service-item-garden-care">Уход за садом</li>
-
-      </ul>
-    </div>
-
-    <h1 class="page-header-title">Driada</h1>
-
   </header>
 
   <!-- /* ABOUT */ -->
 
   <main>
     <section class="about" id="about">
-      <div class="container-fluid">
+      <div class="container  container-about">
         <div class="about-description">
 
           <p class="about-slogan">Создаем, преображаем, ухаживаем</p>
@@ -106,13 +112,13 @@
 
     <section class="projects" id="projects">
 
-      <div class="container-fluid">
+      <div class="container">
 
         <div class="row">
 
           <div class="col-xs-12  projects-description">
             <h2 class="main-title  main-title-pond">Сад с прудом</h2>
-            <p class="projects-text">Полное воплощение проекта под ключ. Строительство искусственного водоема площадью зеркала 300 м <sup>2</sup> с зарыблением. Строительство фонтана, освещение, полив, ливневая канализация, посадка растений, уход.</p>
+            <p class="projects-text  projects-text-pond">Полное воплощение проекта под ключ. Строительство искусственного водоема площадью зеркала 300 м <sup>2</sup> с зарыблением. Строительство фонтана, освещение, полив, ливневая канализация, посадка растений, уход.</p>
           </div>
 
         </div>
@@ -172,7 +178,7 @@
     <!-- /* CONTACTS */ -->
 
     <section class="contacts" id="contacts">
-      <div class="container-fluid">
+      <div class="container">
         <h2 class="main-title  main-title-contacts">Свяжитесь с нами</h2>
 
         <div class="row">
@@ -194,7 +200,7 @@
             <img src="img/contacts-map.jpg" alt="Карта" class="contacts-map">
           </div>
 
-          <div class="hidden-xs">
+          <div class="hidden-xs  hidden-sm  hidden-md">
             <img src="" alt="Здание" class="contacts-image">
           </div>
 
@@ -211,14 +217,14 @@
     <div class="container">
       <div class="row">
 
-        <div class="hidden-xs">
+        <div class="hidden-xs  hidden-sm  hidden-md">
           <p class="page-footer-copyright">
             © 2015 – Все права защищены.
           </p>
         </div>
 
         <div class="col-xs-12">
-          <span class="hidden-xs  page-footer-social-network-text">
+          <span class="hidden-xs   hidden-sm  hidden-md  page-footer-social-network-text">
             Мы в соцсетях:
           </span>
           <ul class="page-footer-social-network-btns">

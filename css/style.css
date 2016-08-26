@@ -1013,7 +1013,6 @@ hr {
 
 .about-description {
   padding-bottom: 27px;
-
 }
 
 .about-slogan {
@@ -1270,6 +1269,17 @@ hr {
     line-height: 30px;
   }
 
+  .page-header-title {
+    top: -235px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 154px;
+  }
+
+  /* PAGE-HEADER-MAIN */
+
   .service {
     padding: 345px 0 162px;
   }
@@ -1331,13 +1341,55 @@ hr {
     background-image: url(../img/service-item-garden-care-background-1200.png);
   }
 
-  .page-header-title {
-    top: -235px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    font-size: 154px;
+  /* ABOUT */
+
+  .about {
+    margin-top: 16px;
+    background-size: 1248px 356px;
+    background-image: url(../img/about-description-background-1200.jpg);
+  }
+
+  .about-description {
+    padding-bottom: 110px;
+  }
+
+  .about-slogan {
+    margin: 24px 0 75px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .about-title {
+    padding: 0 44px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .about-service {
+    padding: 0 123px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .advantages {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+
+  .advantages-item {
+    padding: 0;
+    min-width: 416px;
+  }
+
+  .advantages-item-image {
+    width: 416px;
+    height: 268px;
+  }
+
+  .advantages-item-title {
+    padding: 30px 0;
+    font-size: 16px;
+    font-weight: 400;
   }
 
 }

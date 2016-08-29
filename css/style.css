@@ -1136,6 +1136,10 @@ hr {
   font-size: 10px;
 }
 
+.consult-form-email {
+  padding-left: 6px;
+}
+
 .consult-form-email-input, .consult-form-btn {
   display: block;
   min-height: 33px;
@@ -1405,6 +1409,7 @@ hr {
 
   .projects {
     padding-top: 82px;
+    margin-bottom: -122px;
   }
 
   .container-projects {
@@ -1472,7 +1477,7 @@ hr {
   .projects-description-sollutions {
     padding-left: 77px;
     padding-top: 46px;
-    padding-right: 0px;
+    padding-right: 121px;
     margin-left: -33px;
     top: -194px;
     background-image: url(../img/projects-description-sollutions-background-1200.jpg);
@@ -1497,7 +1502,7 @@ hr {
   }
 
   .projects-button-sollutions {
-    margin: 45px 0 40px;
+    margin: 45px 0 5px;
     padding: 19px 23px 15px;
   }
 
@@ -1505,6 +1510,52 @@ hr {
     min-width: 633px;
     height: 343px;
     top: -202px;
+  }
+
+  /* CONSULT */
+
+  .consult {
+    padding: 278px 0 41px;
+    background-image: url(../img/consult-background-1200.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .main-title-consult {
+    margin-bottom: 82px;
+    font-size: 36px;
+    font-weight: 400;
+  }
+
+  .consult-form-text {
+    padding-right: 0;
+    font-size: 14px;
+  }
+
+  .consult-form-email {
+    padding-left: 10px;
+  }
+
+  .consult-form-email-input, consult-form-btn {
+    border-radius: 5px;
+  }
+
+  .consult-form-email-input {
+    min-width: 302px;
+    min-height: 45px;
+    padding-left: 45px;
+    font-size: 13px;
+    line-height: 23px;
+    background: url(../img/consult-form-email-input-background-1200.png) no-repeat;
+    background-position: 15px 50%;
+    background-color: white;
+  }
+
+  .consult-form-btn {
+    min-width: 176px;
+    min-height: 47px;
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 24px;
   }
 
 }

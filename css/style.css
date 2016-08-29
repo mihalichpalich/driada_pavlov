@@ -859,10 +859,19 @@ hr {
   margin-left: -27px;
 }
 
+.page-header-menu-width {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  width: 23%;
+}
+
 .page-header-nav-menu {
   padding-left: 67px;
   position: relative;
-  right: 4%;
+  left: 5%;
 }
 
 .page-header-nav-list {
@@ -1260,7 +1269,7 @@ hr {
 
   .page-header-contacts {
     margin-top: 25px;
-    margin-left: 29px;
+    margin-left: 58px;
     padding: 0;
   }
 
@@ -1353,22 +1362,23 @@ hr {
     padding-bottom: 110px;
   }
 
+  .about-slogan, .about-title, .about-service, .advantages-item-title {
+    font-weight: 400;
+  }
+
   .about-slogan {
     margin: 24px 0 75px;
     font-size: 30px;
-    font-weight: 400;
   }
 
   .about-title {
     padding: 0 44px;
     font-size: 18px;
-    font-weight: 400;
   }
 
   .about-service {
     padding: 0 123px;
     font-size: 14px;
-    font-weight: 400;
   }
 
   .advantages {
@@ -1382,14 +1392,119 @@ hr {
   }
 
   .advantages-item-image {
-    width: 416px;
+    min-width: 416px;
     height: 268px;
   }
 
   .advantages-item-title {
     padding: 30px 0;
     font-size: 16px;
+  }
+
+  /* PROJECTS */
+
+  .projects {
+    padding-top: 82px;
+  }
+
+  .container-projects {
+    padding: 0;
+  }
+
+  .projects-description-pond {
+    padding: 0 41px 0 113px;
+  }
+
+  .main-title-pond, .main-title-sollutions {
+    font-size: 30px;
     font-weight: 400;
+  }
+
+  .main-title-pond {
+    text-align: left;
+    opacity: 0.82;
+    line-height: 18px;
+  }
+
+  .projects-text {
+    font-size: 14px;
+  }
+
+  .projects-text-pond {
+    margin-left: 0;
+    line-height: 18px;
+  }
+
+  .projects-image-wrapper {
+    margin-left: -26px;
+    padding: 0;
+    width: 103%;
+  }
+
+  .projects-image-pond {
+    min-width: 616px;
+    height: 339px;
+    position: relative;
+    top: -194px;
+  }
+
+  .projects-button-pond-wrapper {
+    height: 0;
+  }
+
+  .projects-button-pond, .projects-button-sollutions {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .projects-button-pond {
+    padding: 14px 28px 10px;
+    position: relative;
+    top: -349px;
+    left: 525px;
+  }
+
+  .projects-description-sollutions-row {
+    margin-right: -65px;
+    margin-top: 1px;
+  }
+
+  .projects-description-sollutions {
+    padding-left: 77px;
+    padding-top: 46px;
+    padding-right: 0px;
+    margin-left: -33px;
+    top: -194px;
+    background-image: url(../img/projects-description-sollutions-background-1200.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .projects-description-sollutions, .projects-image-sollutions {
+    position: relative;
+  }
+
+  .main-title-sollutions {
+    margin: 27px 0;
+    line-height: 35px;
+    opacity: 0.83;
+    color: #020000;
+  }
+
+  .projects-text-sollutions {
+    line-height: 17px;
+  }
+
+  .projects-button-sollutions {
+    margin: 45px 0 40px;
+    padding: 19px 23px 15px;
+  }
+
+  .projects-image-sollutions {
+    min-width: 633px;
+    height: 343px;
+    top: -202px;
   }
 
 }

@@ -1190,7 +1190,7 @@ hr {
 }
 
 .contacts-text {
-  padding: 0 4px;
+  padding: 0 10px;
   text-align: center;
   color: #878787;
   font-size: 12px;
@@ -1198,12 +1198,13 @@ hr {
 }
 
 .contacts-text:first-child {
-  padding: 0 20px;
+  padding: 0 32px;
   margin-bottom: 25px;
 }
 
 .contacts-map {
   margin-top: 16px;
+  margin-left: 14px;
 }
 
 /* PAGE-FOOTER */
@@ -1250,6 +1251,10 @@ hr {
 }
 
 @media (min-width: 1200px) {
+
+  * {
+    font-weight: 400;
+  }
 
   /* PAGE-HEADER-MAIN */
 
@@ -1366,10 +1371,6 @@ hr {
     padding-bottom: 110px;
   }
 
-  .about-slogan, .about-title, .about-service, .advantages-item-title {
-    font-weight: 400;
-  }
-
   .about-slogan {
     margin: 24px 0 75px;
     font-size: 30px;
@@ -1383,6 +1384,7 @@ hr {
   .about-service {
     padding: 0 123px;
     font-size: 14px;
+    font-weight: 400;
   }
 
   .advantages {
@@ -1420,9 +1422,12 @@ hr {
     padding: 0 41px 0 113px;
   }
 
+  .main-title {
+    font-weight: 400;
+  }
+
   .main-title-pond, .main-title-sollutions {
     font-size: 30px;
-    font-weight: 400;
   }
 
   .main-title-pond {
@@ -1514,16 +1519,22 @@ hr {
 
   /* CONSULT */
 
-  .consult {
-    padding: 278px 0 41px;
+  .consult-bg {
+    width: 100%;
+    min-height: 265px;
     background-image: url(../img/consult-background-1200.jpg);
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  .consult {
+    padding: 15px 0 41px;
   }
 
   .main-title-consult {
     margin-bottom: 82px;
     font-size: 36px;
-    font-weight: 400;
   }
 
   .consult-form-text {
@@ -1558,4 +1569,51 @@ hr {
     line-height: 24px;
   }
 
+  /* CONTACTS */
+
+  .contacts {
+    margin-top: -26px;
+  }
+
+  .contacts-info {
+    width: 646px;
+    padding-bottom: 82px;
+    position: relative;
+    z-index: 2;
+    top: 104px;
+    right: 17px;
+    background-color: white;
+  }
+
+  .main-title-contacts {
+    margin-bottom: 17px;
+    color: #878787;
+    font-size: 48px;
+    line-height: 18px;
+  }
+
+  .contacts-text {
+    padding: 0 31px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contacts-text:first-child {
+    padding: 0 57px;
+    margin-bottom: 31px;
+  }
+
+  .contacts-text b {
+    font-weight: 400;
+  }
+
+  .contacts-map {
+    margin-top: 0;
+    min-width: 639px;
+    max-height: 459px;
+  }
+
+  .contacts-image-wrapper {
+    padding: 0;
+  }
 }

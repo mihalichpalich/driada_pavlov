@@ -1372,7 +1372,6 @@ hr {
 
 .page-header-portfolio-title, .page-header-portfolio-subtitle {
   color: white;
-  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -1441,7 +1440,7 @@ hr {
   padding-top: 7px;
 }
 
-.main-title {
+.mobile-width-title{
   font-size: 20px;
   font-weight: 300;
 }
@@ -1637,6 +1636,28 @@ hr {
   background-position: -5px -29px;
 }
 
+/* PORTFOLIO-PROJECTS */
+
+.portfolio-projects-title, .portfolio-projects-item-name {
+  text-align: center;
+}
+
+.portfolio-projects-title {
+  margin: 40px 0;
+  text-transform: uppercase;
+}
+
+.portfolio-projects-item {
+  margin-bottom: -54px;
+}
+
+.portfolio-projects-item-name {
+  position: relative;
+  bottom: 62px;
+  font-size: 18px;
+  color: white;
+}
+
 @media (min-width: 1200px) {
 
   * {
@@ -1813,7 +1834,7 @@ hr {
     padding: 0 41px 0 113px;
   }
 
-  .main-title {
+  .mobile-width-title {
     font-weight: 400;
   }
 

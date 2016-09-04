@@ -2123,6 +2123,30 @@ hr {
 
   /* PORTFOLIO-PROJECTS */
 
+  .portfolio-projects-title {
+    margin: 36px 0 51px;
+    font-size: 48px;
+    font-weight: 400;
+  }
 
+  .portfolio-projects-item {
+    margin-right: -15px;
+  }
+
+  .portfolio-projects-item:first-child {
+    margin-left: 20px;
+  }
+
+  .portfolio-projects-item-image {
+    min-width: 350px;
+    max-height: 228px;
+  }
+
+  .portfolio-projects-item-name {
+    margin-bottom: 17px;
+    position: relative;
+    top: -69px;
+    font-size: 20px;
+  }
 
 }

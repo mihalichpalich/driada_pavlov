@@ -1421,7 +1421,6 @@ hr {
 
 .container-about {
   padding: 0;
-
 }
 
 .about-description {
@@ -1677,6 +1676,37 @@ hr {
   bottom: 62px;
   font-size: 18px;
   color: white;
+}
+
+/* FIRST-STEP */
+
+.design-first-step {
+  color: #878787;
+}
+
+.design-first-step-principle {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.design-first-step-text, .design-first-step-list-item {
+  font-size: 12px;
+}
+
+.design-first-step-text, .design-first-step-subtitle {
+  margin-top: 0;
+}
+
+.design-first-step-subtitle {
+  margin-bottom: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.design-first-step-list {
+  padding-left: 0;
+  margin-top: 5px;
+  list-style-type: none;
 }
 
 @media (min-width: 1200px) {

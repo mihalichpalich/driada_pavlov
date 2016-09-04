@@ -2104,21 +2104,31 @@ hr {
   }
 
   .page-footer-copyright {
+    margin-left: 49px;
     line-height: 36px;
+  }
+
+  .page-footer-social-network-block, .page-footer-social-network-btns {
+    padding: 0;
   }
 
   .page-footer-social-network-text {
     float: left;
     margin-top: 22px;
-    margin-left: 110px;
+    margin-left: 170px;
   }
 
   .page-footer-social-network-btns {
     margin-top: 25px;
+    margin-left: -45px;
+  }
+
+  .page-footer-social-network-link {
+    margin-left: 16px;
   }
 
   .page-footer-social-network-link-vk {
-    margin-left: 20px;
+    margin-left: 12px;
   }
 
   /* PORTFOLIO-PROJECTS */

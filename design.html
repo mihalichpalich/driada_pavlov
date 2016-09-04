@@ -2,59 +2,82 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>О нас</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Дизайн</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- /* PAGE-HEADER */ -->
+  <!-- /* PAGE-HEADER-DESIGN */ -->
 
-  <header class="page-header">
-    <div class="page-header-wrapper">
-      <div class="container">
+  <header class="page-header  page-header-design">
+    <div class="container-fluid  container-fluid-page-header">
+      <div class="page-header-main-wrapper">
 
-        <div class="row">
+          <div class="row">
 
-          <div class="col-xs-4 col-xs-push-4">
-            <a href="index.html" target="_blank" class="logo"><img src="img/cat.jpg" alt="Логотип"></a>
-          </div>
-
-          <div class="col-xs-4 col-xs-pull-5">
-            <nav class="nav-menu">
-              <ul class="nav-list">
-                <li><a href="#about" target="_blank">О нас</a></li>
-                <li class="active"><a href="#projects" target="_blank">Проекты</a></li>
-                <li><a href="" target="_blank">Дизайн</a></li>
-                <li><a href="" target="_blank">Портфолио</a></li>
-                <li><a href="#contacts" target="_blank">Контакты</a></li>
-              </ul>
-            </nav>
-          </div>
-
-          <div class="col-xs-4">
-            <div class="page-header-contacts">
-              <a href="#consult" target="_blank" >Закажите бесплатный звонок!</a>
-              <a href="tel:+78127481404" target="_blank" class="page-header-contacts-phone">8 (812) 748-14-04</a>
+            <div class="col-xs-2  col-xs-push-6  col-lg-2">
+              <a target="_blank" href="index.html" class="page-header-logo"><img src="img/logo.png" alt="Логотип" class="page-header-logo-image" width="26" height="26"></a>
             </div>
-          </div>
+
+            <div class="hidden-xs  hidden-sm  hidden-md  page-header-menu-width  col-lg-push-6">
+              <nav class="page-header-nav-menu">
+                <ul class="page-header-nav-list">
+                  <li class="page-header-nav-item"><a target="_blank" href="#about" class="page-header-nav-link">О нас</a></li>
+                  <li class="page-header-nav-item"><a target="_blank" href="#projects" class="page-header-nav-link">Проекты</a></li>
+                  <li class="page-header-nav-item"><a target="_blank" href="design.html" class="page-header-nav-link">Дизайн</a></li>
+                  <li class="page-header-nav-item"><a target="_blank" href="portfolio.html" class="page-header-nav-link">Портфолио</a></li>
+                  <li class="page-header-nav-item"><a target="_blank" href="#contacts" class="page-header-nav-link">Контакты</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="mobile-menu  hidden-lg">
+              <a href="" class="toggler" id="toggler"><span></span></a>
+              <ul class="mobile-nav" id="nav">
+                <li class="main-nav-item"><a target="_blank" href="#about">О нас</a></li>
+                <li class="main-nav-item"><a target="_blank" href="#projects">Проекты</a></li>
+                <li class="main-nav-item"><a target="_blank" href="design.html">Дизайн</a></li>
+                <li class="main-nav-item"><a target="_blank" href="portfolio.html">Портфолио</a></li>
+                <li class="main-nav-item"><a target="_blank" href="#contacts">Контакты</a></li>
+              </ul>
+            </div>
+
+            <div class="col-xs-4  col-xs-pull-2  col-lg-3  col-lg-pull-4">
+              <div class="page-header-contacts">
+                <a href="#consult" class="hidden-xs  hidden-sm  hidden-md  page-header-contacts-order" target="_blank">Закажите бесплатный звонок!</a>
+                <a href="tel:+78127481404" target="_blank" class="page-header-contacts-phone">8 (812) 748-14-04</a>
+              </div>
+            </div>
 
         </div>
 
+    </div>
+  </div>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-xs-12  col-lg-7">
+          <div class="page-header-design-info">
+            <h2 class="page-header-promo-title">Проектирование</h2>
+            <ul class="page-header-design-list">
+              <li class="page-header-promo-subtitle">Благоустройство</li>
+              <li class="page-header-promo-subtitle">Озеленение</li>
+              <li class="page-header-promo-subtitle">Уход за садом</li>
+              <li class="page-header-promo-subtitle">Готовые решения</li>
+            </ul>
+          </div>
+        </div>
       </div>
+
+      <div class="row">
+        <div class="col-xs-6  col-lg-12">
+          <h1 class="page-header-title">Driada</h1>
+        </div>
+      </div>
+
     </div>
-
-    <div class="promo-page-header">
-      <h2 class="promo-page-header-title">Проектирование</h2>
-      <ul class="promo-page-header-list">
-        <li class="promo-page-header-item">Благоустройство</li>
-        <li class="promo-page-header-item">Озеленение</li>
-        <li class="promo-page-header-item">Уход за садом</li>
-        <li class="promo-page-header-item">Готовые решения</li>
-      </ul>
-    </div>
-
-    <h1 class="page-header-title">Driada</h1>
-
   </header>
 
   <!-- /* FIRST-STEP */ -->
@@ -93,23 +116,23 @@
   <!-- /* PAGE-FOOTER */ -->
 
   <footer class="page-footer">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
 
-        <div class="col-md-2 col-md-offset-1">
+        <div class="hidden-xs  hidden-sm  hidden-md  col-lg-3">
           <p class="page-footer-copyright">
             © 2015 – Все права защищены.
           </p>
         </div>
 
-        <div class="col-xs-4 col-xs-offset-4 col-md-2 col-md-offset-6">
-          <span class="page-footer-social-network-text">
+        <div class="col-xs-12  col-lg-4  col-lg-offset-5  page-footer-social-network-block">
+          <span class="hidden-xs   hidden-sm  hidden-md  page-footer-social-network-text">
             Мы в соцсетях:
           </span>
-          <ul class="page-footer-social-network-btns">
-            <li class="page-footer-social-network-icon"><a href="" target="_blank" class="page-footer-social-network-fb">Фейсбук</a></li>
-            <li class="page-footer-social-network-icon"><a href="" target="_blank" class="page-footer-social-network-twitter">Твиттер</a></li>
-            <li class="page-footer-social-network-icon"><a href="" target="_blank" class="page-footer-social-network-vk">Вконтакте</a></li>
+          <ul class="col-lg-5  page-footer-social-network-btns">
+            <li class="page-footer-social-network-item"><a target="_blank" href="" class="page-footer-social-network-link  page-footer-social-network-link-fb">Фейсбук</a></li>
+            <li class="page-footer-social-network-item"><a target="_blank" href="" class="page-footer-social-network-link  page-footer-social-network-link-twitter">Твиттер</a></li>
+            <li class="page-footer-social-network-item"><a target="_blank" href="" class="page-footer-social-network-link  page-footer-social-network-link-vk">Вконтакте</a></li>
           </ul>
         </div>
 
@@ -117,6 +140,8 @@
     </div>
   </footer>
 
+  <script src="js/jquery-2.2.1.min.js"></script>
+  <script src="js/script.js"></script>
   <script src="js/live.js"></script>
 
 </body>

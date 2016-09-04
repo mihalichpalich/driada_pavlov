@@ -1370,19 +1370,40 @@ hr {
   padding: 112px 0px;
 }
 
-.page-header-portfolio-title, .page-header-portfolio-subtitle {
+.page-header-promo-title, .page-header-promo-subtitle {
   color: white;
   text-transform: uppercase;
 }
 
-.page-header-portfolio-title {
+.page-header-promo-title {
   font-size: 28px;
   line-height: 30px;
 }
 
-.page-header-portfolio-subtitle {
+.page-header-promo-subtitle {
   font-size: 20px;
   line-height: 24px;
+}
+
+/* PAGE-HEADER-DESIGN */
+
+.page-header-design {
+  background-image: url(../img/page-header-design-background.jpg);
+}
+
+.page-header-design-info {
+  margin: 116px 0 172px;
+  background-color: rgba(0, 0, 0, 0.77);
+}
+
+.page-header-design-title {
+  color: white;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.page-header-design-list {
+  list-style-type: none;
 }
 
 /* ABOUT */
@@ -1777,13 +1798,13 @@ hr {
     padding: 89px 0 253px;
   }
 
-  .page-header-portfolio-title {
+  .page-header-promo-title {
     margin-bottom: 0;
     font-size: 48px;
     line-height: 58px;
   }
 
-  .page-header-portfolio-subtitle {
+  .page-header-promo-subtitle {
     margin-top: 10px;
     font-size: 24px;
     line-height: 48px;

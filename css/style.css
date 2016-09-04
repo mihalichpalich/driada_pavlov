@@ -1771,6 +1771,24 @@ hr {
     background-image: url(../img/service-item-garden-care-background-1200.png);
   }
 
+  /* PAGE-HEADER-PORTFOLIO */
+
+  .page-header-portfolio-title-block {
+    padding: 89px 0 253px;
+  }
+
+  .page-header-portfolio-title {
+    margin-bottom: 0;
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .page-header-portfolio-subtitle {
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 48px;
+  }
+
   /* ABOUT */
 
   .about {
@@ -2102,5 +2120,9 @@ hr {
   .page-footer-social-network-link-vk {
     margin-left: 20px;
   }
+
+  /* PORTFOLIO-PROJECTS */
+
+
 
 }

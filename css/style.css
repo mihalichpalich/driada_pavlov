@@ -1709,6 +1709,26 @@ hr {
   list-style-type: none;
 }
 
+/* ORDER */
+
+.order {
+  text-align: center;
+}
+
+.order-title {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.order-text {
+  margin-bottom: 40px;
+  font-size: 12px;
+}
+
+.order-video {
+  margin-bottom: 20px;
+}
+
 @media (min-width: 1200px) {
 
   * {

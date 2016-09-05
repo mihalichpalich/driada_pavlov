@@ -1855,9 +1855,23 @@ hr {
   }
 
   .page-header-promo-subtitle {
-    margin-top: 10px;
+    margin-top: 8px;
     font-size: 24px;
     line-height: 48px;
+  }
+
+  /* PAGE-HEADER-DESIGN */
+
+  .page-header-design-info {
+    margin: 56px 0 160px;
+    padding-left: 55px;
+    padding-bottom: 37px;
+    width: 46.5%;
+  }
+
+  .page-header-design-list {
+    margin-left: 5px;
+    margin-top: 21px;
   }
 
   /* ABOUT */
@@ -2229,5 +2243,9 @@ hr {
     top: -69px;
     font-size: 20px;
   }
+
+  /* FIRST-STEP */
+
+
 
 }

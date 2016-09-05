@@ -1713,6 +1713,10 @@ hr {
 
 .order {
   text-align: center;
+  background-image: url(../img/design-order-background.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .order-title {
@@ -1861,6 +1865,10 @@ hr {
   }
 
   /* PAGE-HEADER-DESIGN */
+
+  .design-container {
+    width: 100%;
+  }
 
   .page-header-design-info {
     margin: 56px 0 160px;
@@ -2247,7 +2255,7 @@ hr {
   /* FIRST-STEP */
 
   .first-step {
-    padding-top: 64px;
+    padding: 64px 0 53px;
   }
 
   .first-step-info {
@@ -2286,6 +2294,50 @@ hr {
     margin-left: 41px;
     min-width: 505px;
     min-height: 378px;
+  }
+
+  /* ORDER */
+
+  .order-title {
+    padding: 0 30%;
+    margin: 37px 0 42px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .order-text {
+    padding: 0 24%;
+    margin-bottom: 69px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .order-video {
+    width: 622px;
+    height: 344px;
+    margin-bottom: 25px;
+  }
+
+  .order-consult-form-text {
+    margin-right: -6px;
+    text-align: left;
+    line-height: 18px;
+  }
+
+  .order-consult-form-email {
+    padding-left: 0;
+  }
+
+  .order-consult-form-email-input {
+    min-width: 321px;
+    min-height: 48px;
+    border: 3px solid #e1e1e1;
+  }
+
+  .order-consult-form-btn {
+    margin-left: 40px;
+    font-size: 16px;
+    border-radius: 6px 5px 5px 6px;
   }
 
 }

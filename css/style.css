@@ -1396,7 +1396,7 @@ hr {
   background-color: rgba(0, 0, 0, 0.77);
 }
 
-.page-header-design-title {
+.page-header-promo-title {
   color: white;
   font-size: 28px;
   text-transform: uppercase;
@@ -1404,6 +1404,26 @@ hr {
 
 .page-header-design-list {
   list-style-type: none;
+}
+
+/* PAGE-HEADER-SINGLE-PROJECT */
+
+.page-header-single-project {
+  background-image: url(../img/page-header-single-project-background.jpg);
+}
+
+.page-header-single-project-block {
+  margin: 61px 0 110px;
+}
+
+.page-header-single-project-title {
+  text-transform: none;
+}
+
+.page-header-single-project-text {
+  color: #fff;
+  font-size: 14px;
+  padding-right: 20px;
 }
 
 /* ABOUT */

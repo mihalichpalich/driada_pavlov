@@ -1940,6 +1940,23 @@ hr {
     margin-top: 21px;
   }
 
+  /* PAGE-HEADER-SINGLE-PROJECT */
+
+  .page-header-single-project-block {
+    margin-left: 48px;
+    margin-top: 109px;
+    margin-bottom: 176px;
+  }
+
+  .page-header-single-project-title {
+    padding-right: 35px;
+  }
+
+  .page-header-single-project-text {
+    padding-right: 81px;
+    font-size: 18px;
+  }
+
   /* ABOUT */
 
   .about {

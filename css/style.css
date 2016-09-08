@@ -2449,4 +2449,22 @@ hr {
     margin-top: 19px;
   }
 
+  /* SINGLE-PROJECT-DESCRIPTION-GALLERY */
+
+  .single-project-description-gallery {
+    margin-top: 59px;
+  }
+
+  .single-project-description-gallery-item {
+    float: left;
+  }
+
+  .single-project-description-gallery-item:first-child {
+    margin-right: 7px;
+  }
+
+  .single-project-description-gallery-item:nth-child(3) {
+    margin-right: 12px;
+  }
+
 }

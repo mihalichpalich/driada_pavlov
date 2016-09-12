@@ -1122,12 +1122,11 @@ hr {
 }
 
 .page-header-menu-width {
-  position: relative;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   float: left;
   width: 23%;
+  position: relative;
 }
 
 .page-header-nav-menu {
@@ -1164,11 +1163,11 @@ hr {
 .toggler span {
   width: 25px;
   height: 4px;
-  background-color: #fff;
+  display: block;
   position: relative;
   top: 12px;
-  display: block;
   left: 50%;
+  background-color: #fff;
   border-radius: 5px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -1178,10 +1177,10 @@ hr {
 .toggler span:after {
   content: '';
   display: block;
-  background: #fff;
   width: 25px;
   height: 4px;
   position: absolute;
+  background: #fff;
   border-radius: 5px;
 }
 
@@ -1224,16 +1223,24 @@ hr {
 }
 
 .mobile-nav {
-  list-style: none;
-  background-color: rgba(0,0,0,1);
   padding: 0;
   margin: 0;
+  display: none;
+  padding: 10px 20px;
   position: absolute;
   top: 11%;
   right: 0;
   z-index: 2;
-  display: none;
-  padding: 10px 20px;
+  list-style: none;
+  background-color: rgba(0,0,0,1);
+}
+
+.design-mobile-nav {
+  top: 9.5%;
+}
+
+.single-project-mobile-nav {
+  top: 12.5%;
 }
 
 .mobile-nav-visible {
@@ -1299,6 +1306,7 @@ hr {
   font-weight: 300;
   line-height: 30px;
   text-transform: uppercase;
+  word-wrap: break-word;
   list-style-type: none;
 }
 
@@ -1311,7 +1319,7 @@ hr {
 }
 
 .service-item-improvement, .service-item-garden-care {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .service-item-gardening {
@@ -1367,7 +1375,7 @@ hr {
 }
 
 .page-header-portfolio-title-block {
-  padding: 112px 0px;
+  padding: 112px 0;
 }
 
 .page-header-promo-title, .page-header-promo-subtitle {
@@ -1375,9 +1383,16 @@ hr {
   text-transform: uppercase;
 }
 
+.page-header-promo-title, .page-header-promo-subtitle {
+  width: 100%;
+  word-wrap: break-word;
+}
+
 .page-header-promo-title {
   font-size: 28px;
   line-height: 30px;
+  color: white;
+  text-transform: uppercase;
 }
 
 .page-header-promo-subtitle {
@@ -1394,12 +1409,6 @@ hr {
 .page-header-design-info {
   margin: 116px 0 172px;
   background-color: rgba(0, 0, 0, 0.77);
-}
-
-.page-header-promo-title {
-  color: white;
-  font-size: 28px;
-  text-transform: uppercase;
 }
 
 .page-header-design-list {
@@ -1421,9 +1430,9 @@ hr {
 }
 
 .page-header-single-project-text {
+  padding-right: 20px;
   color: #fff;
   font-size: 14px;
-  padding-right: 20px;
 }
 
 /* ABOUT */
@@ -1477,7 +1486,7 @@ hr {
 /* PROJECTS */
 
 .projects {
-  padding-top: 7px;
+  margin-top: 7px;
 }
 
 .mobile-width-title{
@@ -1503,6 +1512,10 @@ hr {
   margin: 20px 0 33px;
 }
 
+.projects-button-pond-wrapper {
+  text-align: center;
+}
+
 .projects-button {
   display: inline-block;
   color: white;
@@ -1514,9 +1527,6 @@ hr {
   margin-bottom: 35px;
   font-size: 11px;
   line-height: 17px;
-  -webkit-transform: translateX(125%);
-  -ms-transform: translateX(125%);
-  transform: translateX(125%);
 }
 
 .projects-description-sollutions {
@@ -1542,8 +1552,8 @@ hr {
 /* CONSULT */
 
 .consult {
-  background-color: #e5e5e5;
   padding-bottom: 31px;
+  background-color: #e5e5e5;
 }
 
 .main-title-consult {
@@ -1688,15 +1698,23 @@ hr {
 }
 
 .portfolio-projects-item {
-  margin-bottom: -54px;
+  margin-bottom: 19px;
+  display: inline-block;
+  position: relative;
 }
 
-.portfolio-projects-item-name {
-  position: relative;
-  bottom: 62px;
+.portfolio-projects-item-name-block {
+  width: 90%;
+  position: absolute;
+  bottom: 0;
   font-size: 18px;
   color: white;
 }
+
+.portfolio-projects-item-name {
+  margin-bottom: 17px;
+}
+
 
 /* FIRST-STEP */
 
@@ -1793,6 +1811,7 @@ hr {
 
 .single-project-description-designer-name {
   margin-top: 5px;
+  padding-right: 83px;
 }
 
 .single-project-description-gallery-item {
@@ -1826,8 +1845,7 @@ hr {
   }
 
   .page-header-contacts {
-    margin-top: 25px;
-    margin-left: 58px;
+    margin: 25px 0 0 58px;
     padding: 0;
   }
 
@@ -1839,10 +1857,10 @@ hr {
   .page-header-title {
     top: -235px;
     left: 50%;
+    font-size: 154px;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    font-size: 154px;
   }
 
   /* PAGE-HEADER-MAIN */
@@ -1894,18 +1912,18 @@ hr {
   }
 
   .service-item-design:before {
-    background-image: url(../img/service-item-design-background-1200.png);
     left: 24%;
+    background-image: url(../img/service-item-design-background-1200.png);
   }
 
   .service-item-improvement:before {
-    background-image: url(../img/service-item-improvement-background-1200.png);
     left: 23%;
+    background-image: url(../img/service-item-improvement-background-1200.png);
   }
 
   .service-item-gardening:before {
-    background-image: url(../img/service-item-gardening-background-1200.png);
     left: 23%;
+    background-image: url(../img/service-item-gardening-background-1200.png);
   }
 
   .service-item-garden-care:before {
@@ -1938,22 +1956,18 @@ hr {
 
   .page-header-design-info {
     margin: 56px 0 160px;
-    padding-left: 55px;
-    padding-bottom: 37px;
+    padding: 0 0 37px 55px;
     width: 46.5%;
   }
 
   .page-header-design-list {
-    margin-left: 5px;
-    margin-top: 21px;
+    margin: 21px 0 0 5px;
   }
 
   /* PAGE-HEADER-SINGLE-PROJECT */
 
   .page-header-single-project-block {
-    margin-left: 40px;
-    margin-top: 109px;
-    margin-bottom: 176px;
+    margin: 109px 0 176px 40px;
   }
 
   .page-header-single-project-title {
@@ -1961,7 +1975,7 @@ hr {
   }
 
   .page-header-single-project-text {
-    padding-right: 26px;
+    padding-right: 81px;
     font-size: 18px;
   }
 
@@ -1994,8 +2008,7 @@ hr {
   }
 
   .advantages {
-    margin-left: -40px;
-    margin-right: -40px;
+    margin: 0 -40px;
   }
 
   .advantages-item {
@@ -2016,8 +2029,7 @@ hr {
   /* PROJECTS */
 
   .projects {
-    padding-top: 82px;
-    margin-bottom: -122px;
+    margin: 82px 0 -122px;
   }
 
   .container-projects {
@@ -2038,8 +2050,9 @@ hr {
 
   .main-title-pond {
     text-align: left;
+    margin: 19px 0;
     opacity: 0.82;
-    line-height: 18px;
+    line-height: 30px;
   }
 
   .projects-text {
@@ -2048,6 +2061,7 @@ hr {
 
   .projects-text-pond {
     margin-left: 0;
+    padding-right: 81px;
     line-height: 18px;
   }
 
@@ -2059,7 +2073,7 @@ hr {
   }
 
   .owl-carousel.owl-loaded {
-    width: 50%;
+    width: 51%;
   }
 
   .owl-carousel img {
@@ -2067,7 +2081,7 @@ hr {
   }
 
   .owl-carousel .owl-item img {
-    width: 50%;
+    width: 50.7%;
   }
 
   .projects-image-pond {
@@ -2084,7 +2098,7 @@ hr {
   }
 
   .carousel-prev {
-    left: 523px;
+    left: 531px;
   }
 
   .carousel-prev:before, .carousel-next:before {
@@ -2098,7 +2112,7 @@ hr {
   }
 
   .carousel-next {
-    left: 570px;
+    left: 578px;
   }
 
   .carousel-next:before {
@@ -2115,21 +2129,20 @@ hr {
   }
 
   .projects-button-pond {
+    max-width: 20%;
     padding: 14px 28px 10px;
     position: relative;
     top: -349px;
-    left: 525px;
+    left: 182px;
+    word-wrap: break-word;
   }
 
   .projects-description-sollutions-row {
-    margin-right: -65px;
-    margin-top: 1px;
+    margin: 1px -65px 0 0;
   }
 
   .projects-description-sollutions {
-    padding-left: 77px;
-    padding-top: 46px;
-    padding-right: 121px;
+    padding: 46px 121px 0 77px;
     margin-left: -33px;
     top: -194px;
     background-image: url(../img/projects-description-sollutions-background-1200.jpg);
@@ -2233,10 +2246,10 @@ hr {
   }
 
   .main-title-contacts {
-    margin-bottom: 17px;
+    margin-bottom: 3px;
     color: #878787;
     font-size: 48px;
-    line-height: 18px;
+    line-height: 50px;
   }
 
   .contacts-text {
@@ -2256,12 +2269,19 @@ hr {
 
   .contacts-map {
     margin-top: 0;
-    width: 100%;
+    min-width: 609px;
     max-height: 459px;
   }
 
   .contacts-image-wrapper {
     padding: 0;
+  }
+
+  .contacts-image-wrapper:last-child {
+    width: 50%;
+    float: right;
+    position: relative;
+    left: -15px;
   }
 
   .contacts-image {
@@ -2290,13 +2310,12 @@ hr {
 
   .page-footer-social-network-text {
     float: left;
-    margin-top: 22px;
-    margin-left: 170px;
+    margin: 22px 0 0 170px;
+    min-width: 26%;
   }
 
   .page-footer-social-network-btns {
-    margin-top: 25px;
-    margin-left: -45px;
+    margin: 25px 0 0 -45px;
   }
 
   .page-footer-social-network-link {
@@ -2328,10 +2347,7 @@ hr {
     max-height: 228px;
   }
 
-  .portfolio-projects-item-name {
-    margin-bottom: 17px;
-    position: relative;
-    top: -69px;
+  .portfolio-projects-item-name-block {
     font-size: 20px;
   }
 
@@ -2432,7 +2448,7 @@ hr {
   }
 
   .single-project-description-text {
-    padding-right: 69px;
+    padding-right: 28px;
     margin-top: 3px;
     line-height: 24px;
   }
